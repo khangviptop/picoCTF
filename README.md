@@ -5,8 +5,8 @@
 https://jupiter.challenges.picoctf.org/problem/15796/ or http://jupiter.challenges.picoctf.org:15796
 
 ## Write-up: 📝
-This is one of my first favorite CTF challenges to explore more in ```Inspect``` 🔍 tools. The challenge also provide a hint which is essentially login as logon, means we need to login as administrator.<br>
-And by default , we can just login to the website as a normal user and it doesn't check any passwords . With common login, as you can see, there is no flag. So we have to convert our "Type of access authority" into "Administrator". Fortunately, we can manipulate our login data by set cookie values.
+This is one of my first favorite CTF challenges to explore more in ```Inspect 🔍``` tools. The challenge also provide a hint which is essentially login as logon, means we need to login as administrator.<br>
+And by default , we can just login to the website as a normal user and it doesn't check any passwords . With common login, as you can see, there is no flag. So we have to set our "Type of access authority" as "Administrator". Fortunately, we can manipulate our login data by set cookie values.
 
 ### Solution: 💯
 ```
